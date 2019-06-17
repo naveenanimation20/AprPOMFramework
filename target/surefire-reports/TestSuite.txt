@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 72.211 s <<< FAILURE! - in TestSuite
+verifyLoginPageTitleTest(com.qa.hubspot.tests.LoginPageTestBy)  Time elapsed: 10.749 s  <<< FAILURE!
+java.lang.AssertionError: expected [HubSpot Login123] but found [HubSpot Login]
+	at com.qa.hubspot.tests.LoginPageTestBy.verifyLoginPageTitleTest(LoginPageTestBy.java:48)
+
